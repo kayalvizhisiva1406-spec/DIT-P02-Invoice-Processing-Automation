@@ -1,0 +1,935 @@
+PROJECT: INVOICE INTELLIGENCE 360
+TAGLINE:
+Transforming Financial Documents into Intelligent Decisions.
+PROJECT CATEGORY:
+AI-Powered Finance Automation and Intelligent
+Invoice Processing Platform.
+DEVELOPMENT ENVIRONMENT:
+Google AI Studio.
+PROJECT TYPE:
+Full-Stack, Functional, Enterprise-Grade Web Application.
+==================================================
+ROLE AND DEVELOPMENT EXPECTATIONS
+==================================================
+Act as a world-class team consisting of:
+Senior Python Automation Architect.
+Senior Full-Stack Developer.
+AI and Machine Learning Engineer.
+Financial Systems Analyst.
+UI/UX and 3D Motion Designer.
+Software Testing and Quality Assurance Engineer.
+Database Architect.
+Cybersecurity Engineer.
+Build a professional, fully functional enterprise-level
+Invoice Processing Automation application.
+This is a real implementation project, not a static
+prototype, landing page, or UI-only demonstration.
+Every major button, menu, upload feature, filter,
+chart, report, and processing module must work.
+Do not use fake functionality or pretend that
+an operation was successfully completed.
+==================================================
+2. BUSINESS OBJECTIVE
+Develop an intelligent invoice automation system that
+can automatically:
+Read uploaded invoice datasets.
+Process Excel and CSV files.
+Extract invoice information.
+Validate mandatory invoice fields.
+Verify invoice calculations and totals.
+Identify duplicate invoices.
+Detect missing and incorrect information.
+Identify financial exceptions.
+Separate valid and invalid records.
+Generate an Invoice Register.
+Generate an Exception Report.
+Generate a Reconciliation Summary.
+Create interactive financial dashboards.
+Export processed results.
+The system must reduce manual invoice verification
+and improve financial data accuracy.
+==================================================
+3. PREMIUM 3D UI/UX DESIGN
+Create an exceptionally attractive enterprise
+interface with realistic 3D visual elements.
+DESIGN THEME:
+Deep charcoal background.
+Premium midnight navy.
+Purple and violet gradients.
+Electric cyan highlights.
+Glassmorphism panels.
+Realistic 3D shadows.
+Depth effects.
+Reflective surfaces.
+Soft neon lighting.
+Premium typography.
+The design must look like a next-generation
+financial intelligence command center.
+3D VISUAL REQUIREMENTS:
+A. Animated 3D Invoice Documents
+Display floating invoice documents with realistic
+paper depth, shadows, and movement.
+B. AI Processing Animation
+Show documents entering an intelligent processing
+engine and passing through different stages.
+C. 3D Data Visualization
+Create animated 3D-style charts, financial graphs,
+and interactive dashboard components.
+D. Processing Illustrations
+Show visual illustrations for:
+File Upload.
+Document Reading.
+Data Extraction.
+Field Validation.
+Duplicate Detection.
+Financial Calculation.
+Exception Identification.
+Reconciliation.
+Report Generation.
+E. Interactive 3D Workflow
+Create an animated workflow:
+UPLOAD
+↓
+READ
+↓
+EXTRACT
+↓
+VALIDATE
+↓
+DUPLICATE CHECK
+↓
+EXCEPTION DETECTION
+↓
+RECONCILIATION
+↓
+REPORT GENERATION
+F. Animated Background
+Use subtle floating particles, connected data
+networks, glowing nodes, and smooth background
+animations.
+IMPORTANT:
+Use actual CSS animations, SVG, Three.js or other
+suitable technologies where appropriate.
+Do not sacrifice performance for visual effects.
+All animations must remain smooth and responsive.
+
+==================================================
+ADDITIONAL LOGO REQUIREMENT
+==================================================
+Use the exact photo uploaded by the user as the
+official application logo.
+
+LOGO PLACEMENT:
+Place the uploaded photo inside the existing round
+logo/icon position next to the application name
+"INVOICE INTELLIGENCE 360".
+
+LOGO DESIGN:
+Display the uploaded photo inside a perfectly circular
+logo container.
+Use object-fit: cover.
+Keep the photo centered and clearly visible.
+Maintain the original appearance of the uploaded photo.
+Use a clean circular crop with smooth edges.
+Make the logo responsive across desktop and mobile.
+Maintain proper spacing between the logo and
+application name.
+
+IMPORTANT:
+Use the exact photo uploaded by the user.
+Do not generate a different logo.
+Do not replace the uploaded photo with another icon.
+Do not use a random image.
+Do not change the uploaded photo's identity or design.
+Do not modify any other application functionality,
+layout, page, feature, color theme, or existing content
+for this logo requirement.
+Only replace the existing round logo/icon beside
+the application name with the user's uploaded photo.
+If the image is not available, ask the user to upload it.
+==================================================
+4. MAIN APPLICATION DASHBOARD
+Create a professional dashboard containing:
+Total Invoices.
+Valid Invoices.
+Invalid Invoices.
+Duplicate Invoices.
+Pending Review.
+Total Invoice Amount.
+Total Validated Amount.
+Exception Amount.
+Processing Success Rate.
+Total Files Processed.
+All dashboard values must be calculated
+dynamically from actual uploaded data.
+Do not use hardcoded statistics.
+Add:
+Interactive charts.
+Monthly invoice trends.
+Valid vs Invalid comparison.
+Duplicate invoice analysis.
+Exception category distribution.
+Vendor-wise invoice analysis.
+Financial amount distribution.
+Processing activity timeline.
+Charts must update automatically whenever
+new data is uploaded or processed.
+==================================================
+5. SMART FILE UPLOAD ENGINE
+Build a fully functional drag-and-drop upload system.
+SUPPORTED FORMATS:
+.xlsx
+.xls
+.csv
+Add PDF and image invoice processing as an
+optional advanced document extraction module.
+For PDF and image files, use appropriate
+document extraction or OCR technology.
+If an unsupported format is uploaded,
+show a clear error message.
+FEATURES:
+Drag and drop.
+Browse files.
+Multiple file upload.
+File size validation.
+File format validation.
+Upload progress.
+Processing progress.
+File preview.
+Upload history.
+Remove uploaded file.
+Download original file where supported.
+When a user uploads an Excel or CSV file:
+Read the actual file.
+Identify worksheets.
+Detect column names.
+Identify invoice records.
+Map available columns.
+Identify missing columns.
+Validate each record.
+Process every eligible row.
+Generate results.
+Never assume that every uploaded file has
+the same column names.
+Create an intelligent column-mapping interface.
+Allow users to manually map columns when
+automatic mapping is uncertain.
+Do not silently ignore rows or columns.
+==================================================
+6. INVOICE DATA EXTRACTION
+Extract and identify the following fields:
+Invoice ID.
+Invoice Number.
+Invoice Date.
+Due Date.
+Vendor Name.
+Vendor ID.
+Vendor Tax ID.
+Purchase Order Number.
+Description.
+Quantity.
+Unit Price.
+Subtotal.
+Tax Rate.
+Tax Amount.
+Discount.
+Shipping Charges.
+Total Amount.
+Currency.
+Payment Status.
+Support different invoice column naming
+conventions through configurable mappings.
+Show extraction confidence for OCR-based
+document extraction.
+Low-confidence extracted fields must be
+flagged for manual review.
+==================================================
+7. INTELLIGENT VALIDATION ENGINE
+Create a powerful rule-based invoice validation engine.
+VALIDATION RULES:
+Invoice number must not be empty.
+Vendor name must not be empty.
+Invoice date must be valid.
+Due date must be valid where required.
+Invoice amount must be numeric.
+Quantity must be valid where applicable.
+Unit price must be valid where applicable.
+Currency must be recognised.
+Tax calculations must be verified.
+Subtotal must match line-item calculations.
+Total amount must match the documented formula.
+Negative amounts must be flagged for review.
+Missing mandatory fields must be identified.
+Invalid date formats must be detected.
+Invalid numeric values must be detected.
+Make validation rules configurable.
+Do not assume that all countries use the
+same tax rules or date formats.
+Use configurable financial rounding tolerances.
+For example:
+Expected Total =
+Subtotal + Tax + Shipping - Discount
+Compare calculated totals against uploaded totals.
+Display the difference clearly.
+==================================================
+8. DUPLICATE DETECTION ENGINE
+Develop an intelligent duplicate detection module.
+Identify duplicates using combinations of:
+Invoice Number.
+Vendor Name.
+Vendor ID.
+Invoice Date.
+Invoice Amount.
+Purchase Order Number.
+Support:
+A. Exact Duplicate Detection.
+B. Potential Duplicate Detection.
+C. Similar Invoice Identification.
+Do not automatically classify every similar
+record as a confirmed duplicate.
+Show duplicate groups and explain why
+records were flagged.
+Allow authorised users to review and resolve
+duplicate alerts.
+==================================================
+9. EXCEPTION MANAGEMENT
+Create a dedicated Exception Management Center.
+Exception categories:
+Missing Invoice Number.
+Missing Vendor Information.
+Invalid Invoice Date.
+Invalid Due Date.
+Incorrect Tax Calculation.
+Total Amount Mismatch.
+Duplicate Invoice.
+Invalid Currency.
+Missing Mandatory Fields.
+Suspicious Negative Amount.
+Incomplete Invoice Data.
+Low OCR Confidence.
+Each exception must display:
+Invoice ID.
+Vendor Name.
+Exception Type.
+Severity.
+Description.
+Detected Value.
+Expected Value.
+Recommended Review Action.
+Processing Status.
+Severity levels:
+CRITICAL
+HIGH
+MEDIUM
+LOW
+Allow users to:
+Filter exceptions.
+Search exceptions.
+View invoice details.
+Mark for review.
+Resolve exceptions.
+Add review notes.
+Track resolution history.
+Never automatically alter original invoice data.
+Maintain an audit trail of modifications.
+==================================================
+10. INVOICE REGISTER
+Generate a complete Invoice Register containing:
+Invoice ID.
+Vendor.
+Invoice Date.
+Due Date.
+Invoice Amount.
+Currency.
+Validation Status.
+Duplicate Status.
+Exception Count.
+Processing Date.
+Provide:
+Search.
+Sorting.
+Pagination.
+Advanced filters.
+Status filters.
+Date filters.
+Vendor filters.
+Export to Excel.
+Export to CSV.
+==================================================
+11. FINANCIAL RECONCILIATION ENGINE
+Create a financial reconciliation module.
+IMPORTANT:
+Support optional payment ledger uploads.
+Allow users to upload invoice records and
+payment transaction records.
+Compare:
+Invoice Number.
+Vendor.
+Invoice Amount.
+Payment Amount.
+Payment Reference.
+Payment Date.
+Outstanding Balance.
+Identify:
+Fully Matched Invoices.
+Partially Matched Invoices.
+Unmatched Invoices.
+Overpayments.
+Underpayments.
+Missing Payment References.
+Multiple Payment Transactions.
+Use configurable matching rules and tolerances.
+If no payment ledger is uploaded, generate
+an invoice-level reconciliation summary only.
+Clearly distinguish invoice validation from
+actual payment reconciliation.
+Do not claim that an invoice has been paid
+without supporting payment information.
+==================================================
+12. ADVANCED FINANCIAL ANALYTICS
+Create an advanced analytics section.
+Include:
+Invoice Volume Trends.
+Monthly Financial Summary.
+Vendor Performance.
+Exception Trends.
+Duplicate Detection Trends.
+Invoice Approval Analysis.
+Outstanding Invoice Analysis.
+Tax Distribution.
+Processing Efficiency.
+Data Quality Score.
+Use dynamic calculations based on real data.
+Add interactive charts and date filters.
+Support CSV and Excel exports.
+==================================================
+13. REPORT GENERATION CENTER
+Generate the following reports:
+Invoice Register.
+Exception Report.
+Reconciliation Summary.
+Duplicate Invoice Report.
+Validation Summary.
+Vendor Summary.
+Financial Analytics Report.
+Processing Activity Report.
+Provide downloadable:
+Excel reports.
+CSV reports.
+PDF reports.
+Reports must contain actual processed records.
+Include report generation date and processing
+summary.
+==================================================
+14. AI-POWERED INTELLIGENCE
+Add optional AI-assisted features.
+Natural Language Invoice Query.
+Explain Validation Errors.
+Explain Duplicate Alerts.
+Summarise Exception Trends.
+Suggest Data Quality Improvements.
+Generate Financial Processing Summaries.
+Example questions:
+"Show all invalid invoices."
+"Which vendors have the most exceptions?"
+"Find invoices with incorrect totals."
+"Show duplicate invoice records."
+"Summarise the reconciliation results."
+AI must use actual processed application data.
+Do not invent invoice records, payments,
+financial values, or validation results.
+==================================================
+15. PROCESSING HISTORY AND AUDIT LOGS
+Create an Activity Monitoring module.
+Record:
+Uploaded File Name.
+Upload Date.
+Processing Start Time.
+Processing Completion Time.
+Number of Records.
+Valid Records.
+Invalid Records.
+Duplicate Records.
+Exceptions.
+Processing Status.
+Maintain an audit history of user actions
+and exception resolutions.
+
+==================================================
+ADDITIONAL LOG FILE REQUIREMENT
+==================================================
+Implement a real and functional application logging
+system that records important application activities
+and events in actual log files.
+
+LOG FILE PURPOSE:
+Maintain a permanent, traceable record of application
+activities, processing operations, errors, and system
+events for debugging, monitoring, and auditing.
+
+LOG FILE ACTIVITIES:
+Record the following events:
+Application Started.
+Application Stopped.
+User Login and Logout, if authentication exists.
+File Uploaded.
+File Upload Failed.
+File Validation Started.
+File Validation Completed.
+Invoice Processing Started.
+Invoice Processing Completed.
+Number of Records Detected.
+Number of Valid Invoices.
+Number of Invalid Invoices.
+Number of Duplicate Invoices.
+Exception Detection.
+Exception Resolution.
+Reconciliation Started.
+Reconciliation Completed.
+Report Generation Started.
+Report Generation Completed.
+Report Downloaded.
+Settings Updated.
+Unexpected Errors.
+System Warnings.
+
+LOG FILE FORMAT:
+Create actual log files in a dedicated logs directory.
+
+Example:
+logs/
+    application.log
+    error.log
+    processing.log
+    audit.log
+
+Each log entry must include:
+Timestamp.
+Log Level.
+Module Name.
+Action or Event.
+Relevant Record or File Reference, where applicable.
+Detailed Message.
+Processing Status.
+
+LOG LEVELS:
+INFO.
+WARNING.
+ERROR.
+CRITICAL.
+DEBUG.
+
+LOG FILE EXAMPLE:
+2026-11-09 10:00:00 | INFO | SYSTEM |
+Application Started | SUCCESS
+
+2026-11-09 10:05:00 | INFO | UPLOAD |
+Invoice.xlsx Uploaded | SUCCESS
+
+2026-11-09 10:06:00 | INFO | PROCESSING |
+100 Invoice Records Detected | SUCCESS
+
+2026-11-09 10:07:00 | INFO | VALIDATION |
+85 Valid Invoices Identified | SUCCESS
+
+2026-11-09 10:07:30 | WARNING | VALIDATION |
+10 Invalid Invoices Identified | REVIEW REQUIRED
+
+2026-11-09 10:08:00 | WARNING | DUPLICATE |
+5 Duplicate Invoices Identified | REVIEW REQUIRED
+
+2026-11-09 10:09:00 | INFO | REPORT |
+Excel Report Generated | SUCCESS
+
+FUNCTIONAL REQUIREMENTS:
+Use Python logging or an equivalent reliable
+logging framework.
+Create log files automatically when the application
+starts.
+Use appropriate log levels.
+Implement exception logging with useful error details.
+Record processing start and completion timestamps.
+Record failed operations and their causes.
+Support log file rotation to prevent unlimited
+log file growth.
+Keep logs organised by date or category where useful.
+Provide a Log Viewer page or section in the application.
+Allow authorised users to:
+View recent log entries.
+Search logs.
+Filter by date.
+Filter by log level.
+Filter by module.
+View error details.
+Download log files.
+Export selected logs when appropriate.
+
+SECURITY REQUIREMENTS:
+Do not record passwords.
+Do not record API keys or authentication tokens.
+Do not expose confidential invoice information
+unnecessarily in log messages.
+Sanitise sensitive data before writing logs.
+Restrict access to log files according to
+appropriate user permissions.
+Protect logs from unauthorised modification
+where technically feasible.
+
+IMPORTANT:
+Logs must be generated from actual application events.
+Do not display fabricated log entries.
+Do not create a UI-only Log Viewer.
+The logging system must be connected to the real
+backend processing, validation, upload, reporting,
+and exception-management operations.
+If an operation fails, record the actual failure.
+Do not claim that an operation succeeded unless
+it actually completed successfully.
+==================================================
+16. SETTINGS AND CONFIGURATION
+Create a complete settings section.
+Include:
+Validation Rules.
+Required Fields.
+Tax Configuration.
+Currency Configuration.
+Date Format.
+Rounding Tolerance.
+Duplicate Detection Rules.
+File Size Limits.
+Export Preferences.
+Theme Settings.
+User Preferences.
+Changes must be applied to actual processing
+logic, not just the user interface.
+==================================================
+17. TEAM-BASED PROJECT DEVELOPMENT
+This is a six-member team project.
+Provide a suggested responsibility structure:
+Member 1:
+Project Coordination and Requirements Analysis.
+Member 2:
+Dataset Preparation and Data Extraction.
+Member 3:
+Invoice Validation and Business Rules.
+Member 4:
+Duplicate Detection and Exception Management.
+Member 5:
+Reconciliation and Financial Analytics.
+Member 6:
+Testing, Documentation, UI Integration,
+and Demonstration.
+All members must collaborate and understand
+the complete application.
+Create a contribution tracking section.
+==================================================
+18. AGILE METHODOLOGY
+Apply practical Agile development principles.
+Include:
+Product Backlog.
+User Stories.
+Acceptance Criteria.
+Sprint Planning.
+Sprint Tasks.
+Kanban Board.
+Daily Progress Updates.
+Sprint Review.
+Sprint Retrospective.
+Kanban statuses:
+BACKLOG
+TO DO
+IN PROGRESS
+TESTING
+DONE
+Each task must include:
+Task Name.
+Assigned Member.
+Priority.
+Status.
+Due Date.
+Acceptance Criteria.
+==================================================
+19. TESTING AND QUALITY ASSURANCE
+Create comprehensive test cases.
+Test:
+Valid invoice records.
+Missing invoice numbers.
+Missing vendor names.
+Incorrect totals.
+Duplicate invoices.
+Invalid dates.
+Empty files.
+Corrupted Excel files.
+Invalid CSV files.
+Unexpected column names.
+Negative values.
+Multiple worksheets.
+Large datasets.
+Unsupported file formats.
+Payment mismatches.
+For each test case display:
+Test Case ID.
+Test Scenario.
+Input.
+Expected Result.
+Actual Result.
+Pass/Fail.
+Remarks.
+Do not mark tests as passed without actually
+executing the relevant validation.
+Include unit tests and integration tests.
+==================================================
+20. SECURITY AND DATA PRIVACY
+Implement:
+Secure file handling.
+Input sanitisation.
+File type verification.
+Upload size restrictions.
+Error handling.
+Safe temporary file management.
+Protected configuration secrets.
+Appropriate access controls.
+Audit logging.
+Do not expose confidential financial records.
+Do not send uploaded financial data to
+external AI services without explicit
+authorisation.
+Use synthetic datasets for demonstrations.
+==================================================
+21. TECHNICAL ARCHITECTURE
+Use a suitable production-oriented architecture.
+Recommended technologies:
+Frontend:
+React, TypeScript, modern CSS.
+Backend:
+Python with FastAPI.
+Data Processing:
+Pandas, OpenPyXL, Python CSV.
+Charts:
+Recharts or an equivalent chart library.
+3D Visuals:
+Three.js or React Three Fiber.
+Database:
+SQLite for local development, with a
+configurable path to PostgreSQL.
+Testing:
+Pytest and frontend testing tools.
+PDF Generation:
+A suitable PDF generation library.
+Excel Export:
+OpenPyXL.
+Choose technologies compatible with
+the Google AI Studio environment.
+If the environment requires a different
+architecture, adapt it while preserving
+the complete functionality.
+Create clean, modular source code.
+Separate:
+Frontend.
+Backend.
+Data Processing.
+Validation Engine.
+Duplicate Detection.
+Reconciliation.
+Reporting.
+Database.
+Tests.
+Documentation.
+==================================================
+22. USER INTERFACE PAGES
+Create the following pages:
+Welcome / Landing Page.
+Main Dashboard.
+Invoice Upload Center.
+File Preview.
+Column Mapping.
+Processing Monitor.
+Invoice Register.
+Validation Results.
+Duplicate Detection.
+Exception Management.
+Reconciliation Center.
+Financial Analytics.
+Report Generation.
+Processing History.
+AI Intelligence Assistant.
+Agile Team Workspace.
+Settings.
+Help and Documentation.
+Use a professional sidebar navigation.
+Add smooth transitions between pages.
+All pages must be responsive.
+==================================================
+23. PREMIUM INTERACTIVE EXPERIENCE
+Add the following advanced features:
+Animated AI Processing Timeline.
+Real-Time Processing Progress.
+Interactive Invoice Explorer.
+Dynamic Data Quality Score.
+Financial Exception Heatmap.
+Vendor Risk Indicators.
+Smart Search.
+Advanced Filters.
+Export Center.
+Notification Center.
+Processing Status Indicators.
+Interactive 3D Data Flow.
+Animated Dashboard Counters.
+Dark/Light Theme Toggle.
+Customisable Dashboard Widgets.
+Create a professional animated demonstration
+of the invoice processing lifecycle.
+The demonstration must represent actual
+application stages and must not display
+fabricated live processing results.
+==================================================
+24. REQUIRED PROJECT DELIVERABLES
+Prepare all deliverables required by DIT TASK 07.
+A. Business Problem Statement.
+B. Project Objectives.
+C. Functional Requirements.
+D. Non-Functional Requirements.
+E. System Architecture.
+F. Workflow Diagram.
+G. Flowchart.
+H. Synthetic Invoice Dataset.
+I. Business Rules Documentation.
+J. Modular Python Source Code.
+K. Input Validation.
+L. Exception Handling.
+M. Activity Logging.
+N. Invoice Register.
+O. Exception Report.
+P. Reconciliation Summary.
+Q. Unit Test Cases.
+R. Integration Test Results.
+S. README.
+T. Screenshots.
+U. Working Demonstration.
+V. Final Project Report.
+W. Final Presentation.
+X. AI Prompt and Debugging Log.
+Y. Team Contribution Report.
+==================================================
+25. SYNTHETIC DATASET GENERATION
+Generate a realistic synthetic invoice dataset.
+Include at least 100 sample records for
+development and demonstration.
+Include:
+Multiple vendors.
+Different invoice dates.
+Different invoice amounts.
+Different currencies.
+Different tax rates.
+Valid records.
+Missing fields.
+Duplicate invoices.
+Incorrect totals.
+Invalid dates.
+Exception records.
+Generate both:
+Sample_Invoices.xlsx
+Sample_Invoices.csv
+Also generate an optional sample payment ledger
+for reconciliation testing.
+Clearly label all records as synthetic.
+Create expected validation results so that
+the team can verify the processing engine.
+==================================================
+26. FINAL ACCEPTANCE CRITERIA
+The project is considered ready only when:
+Excel files can be uploaded and processed.
+CSV files can be uploaded and processed.
+Multiple worksheets are handled correctly.
+Column mapping works.
+All eligible records are examined.
+Valid and invalid invoices are separated.
+Duplicate detection works.
+Exceptions are explained.
+Calculations are verified.
+Invoice Register is generated.
+Exception Report is generated.
+Reconciliation Summary is generated.
+Charts update from actual processed data.
+Reports can be downloaded.
+Settings affect processing rules.
+Errors are handled properly.
+Test cases are executed.
+README is complete.
+The application works on mobile and desktop.
+The application contains no fake functionality.
+The actual Log Files are generated and updated.
+The Log Viewer displays real application logs.
+The uploaded user photo appears as the round
+application logo beside the application name.
+==================================================
+27. DEVELOPMENT EXECUTION INSTRUCTIONS
+Do not build only a landing page.
+Do not stop after creating the dashboard.
+Do not use hardcoded statistics.
+Do not use fake buttons.
+Do not simulate successful file processing.
+Do not ignore invalid records.
+Do not silently discard unsupported data.
+Do not claim that code has been tested
+unless it has actually been executed.
+Develop the application in logical stages.
+First:
+Analyse the complete requirements.
+Second:
+Design the architecture and database.
+Third:
+Create the complete project structure.
+Fourth:
+Develop the upload and data extraction engine.
+Fifth:
+Develop validation and duplicate detection.
+Sixth:
+Develop exception management.
+Seventh:
+Develop reconciliation.
+Eighth:
+Develop analytics and reporting.
+Ninth:
+Build the premium 3D user interface.
+Tenth:
+Integrate every module.
+Eleventh:
+Execute tests and resolve errors.
+Twelfth:
+Generate all DIT deliverables.
+After each stage, verify that the implementation
+works before proceeding.
+If an external service, API key, database,
+or deployment configuration is required,
+explain the setup clearly.
+==================================================
+FINAL INSTRUCTION
+Build INVOICE INTELLIGENCE 360 as a premium,
+intelligent, highly interactive, enterprise-grade
+financial automation platform.
+The application must combine:
+REAL FUNCTIONALITY
++
+INTELLIGENT DATA PROCESSING
++
+FINANCIAL VALIDATION
++
+DUPLICATE DETECTION
++
+EXCEPTION MANAGEMENT
++
+RECONCILIATION
++
+ADVANCED ANALYTICS
++
+PREMIUM 3D VISUAL DESIGN
++
+PROFESSIONAL DOCUMENTATION.
+The final result should look visually exceptional,
+work reliably, process real uploaded datasets,
+and demonstrate practical business value.
+Prioritise correctness, reliability, security,
+usability, performance, and professional design.
+Build a complete working product,
+not merely an attractive presentation.
